@@ -1,4 +1,5 @@
 import java.sql.Date;
+//import java.util.ArrayList;
 
 public class User {
 
@@ -6,7 +7,7 @@ public class User {
 
     Date birthday;
     int size;
-    Photo photos;
+    Photo photos; //private ArrayList<Photo> photos
     Address address;
 
     public User(Date cBirthday, int sSize, Photo cPhotos, Address cAddress)  {
